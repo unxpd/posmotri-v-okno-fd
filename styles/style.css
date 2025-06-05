@@ -55,14 +55,13 @@ ol {
 }
 
 .content {
-  max-height: 100vh;
-  overflow: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "result content__details";
   column-gap: 30px;
   align-items: end;
-  padding: 133px 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .result {
@@ -159,6 +158,7 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  line-height: 1;
 }
 
 .content__video-card-description {
